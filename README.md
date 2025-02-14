@@ -1,50 +1,38 @@
-# React + TypeScript + Vite
+# README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição / Description
 
-Currently, two official plugins are available:
+### Português
+Este é um projeto React para uma loja online. Ele permite que os usuários naveguem por produtos, adicionem itens ao carrinho e façam compras. As funções principais usadas no React incluem hooks como `useContext`, `useState` e `useEffect`, componentes funcionais e roteamento com `react-router-dom`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### English
+This is a React project for an online store. It allows users to browse products, add items to the cart, and make purchases. The main functions used in React include hooks such as `useContext`,`useState` and `useEffect`, functional components, and routing with `react-router-dom`.
 
-## Expanding the ESLint configuration
+## Instalação / Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Português
+1. Clone o repositório: `git clone https://github.com/seu-usuario/seu-repositorio.git`
+2. Navegue até o diretório do projeto: `cd seu-repositorio`
+3. Instale as dependências: `npm install`
+4. Inicie o servidor de desenvolvimento: `npm start`
 
-- Configure the top-level `parserOptions` property like this:
+### English
+1. Clone the repository: `git clone https://github.com/your-username/your-repository.git`
+2. Navigate to the project directory: `cd your-repository`
+3. Install the dependencies: `npm install`
+4. Start the development server: `npm start`
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Tecnologias Utilizadas / Technologies Used
+
+```mermaid
+pie
+  title Linguagens Utilizadas / Languages Used
+  "JavaScript": 70
+  "HTML": 15
+  "CSS": 15
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Contato / Contact
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **WhatsApp:** +55 35 98406-1841
+- **LinkedIn:** [Rodrigo Marques Tavares](https://www.linkedin.com/in/rodrigo-marques-tavares-9482b4226/)
