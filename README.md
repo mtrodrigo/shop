@@ -27,9 +27,10 @@ This is a React project for an online store. It allows users to browse products,
 ```mermaid
 pie
   title Linguagens Utilizadas / Languages Used
-  "JavaScript": 70
-  "HTML": 15
-  "CSS": 15
+  "TypeScript": 91.9
+  "JavaScript": 5.1
+  "HTML": 2.8
+  "CSS": 0.2
 ```
 
 ## Contato / Contact
